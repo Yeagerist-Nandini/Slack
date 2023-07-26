@@ -4,14 +4,13 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAQcwxdoOmvBOigmHhZ5RH9O7k-pkSZ2uo",
-  authDomain: "slack-eac9f.firebaseapp.com",
-  projectId: "slack-eac9f",
-  storageBucket: "slack-eac9f.appspot.com",
-  messagingSenderId: "174768753892",
-  appId: "1:174768753892:web:b51859a10aa471d147f0f1",
-  measurementId: "G-HTQ0XYT04G"
-};
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID
+}
 
 const app = initializeApp(firebaseConfig)
 
