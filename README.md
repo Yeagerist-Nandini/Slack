@@ -1,38 +1,73 @@
-# Slack Clone
+# Slack 2.0 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/imhilla/Bookstore)
 
-Slack-like web application built with `React.js`.
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
+![GitHub followers](https://img.shields.io/github/followers/imhilla?label=imhilla&style=social)
+![Twitter URL](https://img.shields.io/twitter/follow/hillarykiptoo_?label=Follow&style=social)
 
-**Other used technologies are:** Firebase (Authentication, Firestore Database, Hosting), styled-components, React Spinners, Redux Toolkit
 
-## Installation
+>  Slack 2.0 !
 
-Before running the application, you need to set the required environment variables. In order to do that, you can use the provided example env file.
+## Description
 
-Get to the **root directory** of the project and rename the existing file named `.env.example` to `.env.local` first. After that, open up the file and fill it in like the following.
+Slack 2.0 is a slack clone built with React, Redux, Firebase hooks, Google Auth, React hooks, styled components. This slack clone allows users to
+login with existing google account using firebase hooks. Users can login create channels, send messages.
 
-```bash
-REACT_APP_FIREBASE_API_KEY=API_KEY
-REACT_APP_FIREBASE_AUTH_DOMAIN=PROJECT_ID.firebaseapp.com
-REACT_APP_FIREBASE_PROJECT_ID=PROJECT_ID
-REACT_APP_FIREBASE_STORAGE_BUCKET=PROJECT_ID.appspot.com
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=SENDER_ID
-REACT_APP_FIREBASE_APP_ID=APP_ID
-```
+## Live version
 
-In order to get your own Firebase information, you need to initialize a Firebase Web App project first. After creating a new Firebase Web App project, you will be able to get the config object. See the [documentation](https://firebase.google.com/docs/web/learn-more#config-object) to learn more.
+Heres a live <a href="https://slack-20b65.web.app">link</a>
 
-## Running Locally
 
-1 - Install dependencies via npm
+<img src="./src/Images/slack.PNG" alt="">
 
-```bash
-$ npm install
-```
+## Features
 
-2 - Run the application by using the following command
+Slack 2.0 web  app has the following features
+- Create channels.
+- Send messages.
+- Firebase auth login.
 
-```bash
-$ npm start
-```
+## Built with
 
-After that, you should be able to display the app on http://localhost:3000 in your browser.
+- HTML
+- Git
+- CSS
+- JavaScript
+- Shields.io
+- Webpack
+- npm
+- command-line tools such as git.
+- React
+- Styled components
+- create-react-app-buildpack
+- Redux
+- Firebase
+- React Hooks
+- Firebase Hooks
+
+## Author
+
+Reach out!
+
+👤 **Hillary Kiptoo**
+
+- LinkedIn: [Hillary Kiptoo](https://www.linkedin.com/in/hillarykiptoo)
+- Github: [@imhilla](https://github.com/imhilla)
+- Twitter: [@hillarykiptoo](https://twitter.com/hillarykiptoo_)
+
+## Contributing 🤝
+
+Contributions, issues, and feature requests are welcome!
+
+## Acknowledgments
+
+- Thanks to Microverse for its support!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
